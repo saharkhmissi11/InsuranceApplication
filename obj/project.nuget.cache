@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "THI6MDE/EdioYeayLA6wA5X+voaA1XQJ8qizsTmvMnVEfSw8NqTwV9jgGoNTd3OdygzJ8Zd9lXH0HJssG5/GVw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ASUS\\source\\repos\\InsuranceApplication\\InsuranceApplication\\InsuranceApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\camundaclient\\0.0.3\\camundaclient.0.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
