@@ -6,8 +6,8 @@ This application, we will use HTML froms instead of Camunda forms.
 We will also use Camunda Platform Run Tasklist.
 ### Camunda Platform Run Tasklist: 
 We use Camunda TaskList when :
-    - we want to start a process manually 
-    - mission-critical business processes require manual work(exp: filling a form)    
+    - We want to start a process manually 
+    - Mission-critical business processes require manual work(exp: filling a form)    
 ## Required packages
      - CamundaClient : Camunda REST API Client for .NET platform
      - Newtonsoft.json : Serialize and deserialize any .NET object 
