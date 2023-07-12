@@ -4,6 +4,8 @@ An InsuranceApplication that uses the Camunda Tasklist and HTML forms.
 ## Application Description
 This application, we will use HTML froms instead of Camunda forms.
 We will also use Camunda Platform Run Tasklist.
+### Camunda Platform Run :  
+Camunda BPM Run is a distribution of Camunda BPM that provides the Camunda web applications (Cockpit, Tasklist, Admin) and the REST API.
 ### Camunda Platform Run Tasklist: 
 We use Camunda TaskList when :
     - We want to start a process manually 
@@ -16,3 +18,7 @@ We use Camunda TaskList when :
      - RiskAssessment.dmn : this a DMN model which makes a decision and gives the nature of the risk based on the user information
      - start.html : this is an embedded task form . The user will fill a html form to enter his information.
      - decide.html : this is an embedded task form . The assigned user will use this html form to decide whether the application will be accepted or not
+## Workers 
+contains tasks performed by external sytems (.NET).
+For example,if the application is accepted, ReceiveAcceptanceAdapter.cs will add message "your application is accepted" that can be read in the Camunda Platform Run
+    
